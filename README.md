@@ -33,7 +33,7 @@ Our job counts the events by `type` and aggregates these counts into 1-minute bu
 Assuming git, [Vagrant][vagrant-install] and [VirtualBox][virtualbox-install] installed:
 
 ```bash
- host$ git clone https://github.com/sahara/google-cloud-dataflow-example-project.git
+ host$ git clone https://github.com/saharabigdata/google-cloud-dataflow-example-project.git
  host$ cd google-cloud-dataflow-example-project
  host$ vagrant up && vagrant ssh
 guest$ cd /vagrant
@@ -44,7 +44,7 @@ guest$ sbt assembly
 
 ### 1. Setting up GCP
 
-First we need to create and setup a GCP project. To do so, you can follow [this guide on Sahara's wiki](https://github.com/sahara/sahara/wiki/GCP:-Getting-Started). Following those instructions, you'll need to enable the following APIs/services:
+First we need to create and setup a GCP project. To do so, you can follow [this guide on Sahara's wiki](https://github.com/saharabigdata/sahara/wiki/GCP:-Getting-Started). Following those instructions, you'll need to enable the following APIs/services:
 
 - Cloud Dataflow
 - Cloud Bigtable
